@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <script type="text/javascript" src="pixelParty.js"></script>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="pixelStyle.css">
+        <meta charset=utf-8 />
+        <title>PixelParty</title>
+    </head>
+    <body>
+        <div id="dropZones">
+            <div class="dropZone left">
+                first frame:
+                <img class="resultImg" id="result1"></img>
+            </div>
+            <div class="dropZone right">
+                second frame (optional)
+                <img class="resultImg" id="result2"></img>
+            </div>
+        </div>
+        <div class="fullWidth"><button id="generateButton" type="button">Generate markdown</button></div>
+        <div id="resultZone">
+            <div id="htmlResult" class="md result left"></div>
+            <textArea id="mdResult" class="result right"></textArea>
+        </div>
+    </body>
+</html>

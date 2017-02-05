@@ -1,0 +1,3578 @@
+.side .titlebox .md h1:first-of-type {
+	display: none;   
+}
+
+.md h4, .md h5 {
+	display: none;
+}
+
+.md p {
+	white-space: normal;
+	overflow:hidden;
+}
+
+a[href^="//"] {
+	display: inline-block;
+	font-family: Monospace;
+	height: 32px;
+	line-height: 32px;
+	font-size: 32px;
+	color: transparent;
+	white-space: pre;
+}
+
+.md h5 ~ p a[href^="//"] {
+	height: 23px;
+	line-height: 23px;
+	font-size: 23px;
+}
+
+.md h5 ~ p {
+	max-height: 23px;
+}
+
+.md h5 + h5 ~ p a[href^="//"] {
+	height: 16px;
+	line-height: 16px;
+	font-size: 16px;
+}
+
+.md h5 + h5 ~ p {
+	max-height: 16px;
+}
+
+.md h5 + h5 + h5 ~ p a[href^="//"] {
+	height: 12px;
+	line-height: 12px;
+	font-size: 12px;
+}
+
+.md h5 + h5 + h5 ~ p {
+	max-height: 12px;
+}
+
+.md h5 + h5 + h5 + h5 ~ p a[href^="//"] {
+	height: 9px;
+	line-height: 9px;
+	font-size: 9px;
+}
+
+.md h5 + h5 + h5 + h5 ~ p {
+	max-height: 9px;
+}
+
+.md h5 + h5 + h5 + h5 + h5 ~ p a[href^="//"] {
+	height: 7px;
+	line-height: 7px;
+	font-size: 7px;
+}
+
+.md h5 + h5 + h5 + h5 + h5 ~ p {
+	max-height: 7px;
+}
+
+.md h4:nth-of-type(1) ~ p {
+	margin: 0;
+	line-height: 0;
+	white-space: nowrap;
+}
+
+.md h4:nth-of-type(2) ~ p {
+	margin: 6px;
+	line-height: initial;
+	white-space: initial;
+    max-height: initial;
+}
+
+.md h4:nth-of-type(3) ~ p {
+	margin: 0;
+	line-height: 0;
+	white-space: nowrap;
+}
+
+.md h4:nth-of-type(4) ~ p {
+	margin: 6px;
+	line-height: initial;
+	white-space: initial;
+    max-height: initial;
+}
+
+.md h4:nth-of-type(5) ~ p {
+	margin: 0;
+	line-height: 0;
+	white-space: nowrap;
+}
+
+.md h4:nth-of-type(6) ~ p {
+	margin: 6px;
+	line-height: initial;
+	white-space: initial;
+    max-height: initial;
+}
+
+.md h4:nth-of-type(7) ~ p {
+	margin: 0;
+	line-height: 0;
+	white-space: nowrap;
+}
+
+.md h4:nth-of-type(8) ~ p {
+	margin: 6px;
+	line-height: initial;
+	white-space: initial;
+    max-height: initial;
+}
+
+.md h4:nth-of-type(9) ~ p {
+	margin: 0;
+	line-height: 0;
+	white-space: nowrap;
+}
+
+.md h4:nth-of-type(10) ~ p {
+	margin: 6px;
+	line-height: initial;
+	white-space: initial;
+    max-height: initial;
+}
+
+.md h4:nth-of-type(11) ~ p {
+	margin: 0;
+	line-height: 0;
+	white-space: nowrap;
+}
+
+.md h4:nth-of-type(12) ~ p {
+	margin: 6px;
+	line-height: initial;
+	white-space: initial;
+    max-height: initial;
+}
+
+.md h4:nth-of-type(13) ~ p {
+	margin: 0;
+	line-height: 0;
+	white-space: nowrap;
+}
+
+.md h4:nth-of-type(14) ~ p {
+	margin: 6px;
+	line-height: initial;
+	white-space: initial;
+    max-height: initial;
+}
+
+a[href^="//"][href*="/black_text" i] {
+	color: black;
+}
+
+a[href^="//"] + .keyNavAnnotation {
+	display: none;
+}
+
+a[href^="//Transparent%" i], a[href="//Transparent" i] {
+	background-color: transparent;
+}
+
+a[href^="//AliceBlue%" i], a[href="//AliceBlue" i] {
+	background-color: #F0F8FF;
+}
+
+a[href^="//AntiqueWhite%" i], a[href="//AntiqueWhite" i] {
+	background-color: #FAEBD7;
+}
+
+a[href^="//Aqua%" i], a[href="//Aqua" i] {
+	background-color: #00FFFF;
+}
+
+a[href^="//Aquamarine%" i], a[href="//Aquamarine" i] {
+	background-color: #7FFFD4;
+}
+
+a[href^="//Azure%" i], a[href="//Azure" i] {
+	background-color: #F0FFFF;
+}
+
+a[href^="//Beige%" i], a[href="//Beige" i] {
+	background-color: #F5F5DC;
+}
+
+a[href^="//Bisque%" i], a[href="//Bisque" i] {
+	background-color: #FFE4C4;
+}
+
+a[href^="//Black%" i], a[href="//Black" i] {
+	background-color: #000000;
+}
+
+a[href^="//BlanchedAlmond%" i], a[href="//BlanchedAlmond" i] {
+	background-color: #FFEBCD;
+}
+
+a[href^="//Blue%" i], a[href="//Blue" i] {
+	background-color: #0000FF;
+}
+
+a[href^="//BlueViolet%" i], a[href="//BlueViolet" i] {
+	background-color: #8A2BE2;
+}
+
+a[href^="//Brown%" i], a[href="//Brown" i] {
+	background-color: #A52A2A;
+}
+
+a[href^="//BurlyWood%" i], a[href="//BurlyWood" i] {
+	background-color: #DEB887;
+}
+
+a[href^="//CadetBlue%" i], a[href="//CadetBlue" i] {
+	background-color: #5F9EA0;
+}
+
+a[href^="//Chartreuse%" i], a[href="//Chartreuse" i] {
+	background-color: #7FFF00;
+}
+
+a[href^="//Chocolate%" i], a[href="//Chocolate" i] {
+	background-color: #D2691E;
+}
+
+a[href^="//Coral%" i], a[href="//Coral" i] {
+	background-color: #FF7F50;
+}
+
+a[href^="//CornflowerBlue%" i], a[href="//CornflowerBlue" i] {
+	background-color: #6495ED;
+}
+
+a[href^="//Cornsilk%" i], a[href="//Cornsilk" i] {
+	background-color: #FFF8DC;
+}
+
+a[href^="//Crimson%" i], a[href="//Crimson" i] {
+	background-color: #DC143C;
+}
+
+a[href^="//Cyan%" i], a[href="//Cyan" i] {
+	background-color: #00FFFF;
+}
+
+a[href^="//DarkBlue%" i], a[href="//DarkBlue" i] {
+	background-color: #00008B;
+}
+
+a[href^="//DarkCyan%" i], a[href="//DarkCyan" i] {
+	background-color: #008B8B;
+}
+
+a[href^="//DarkGoldenRod%" i], a[href="//DarkGoldenRod" i] {
+	background-color: #B8860B;
+}
+
+a[href^="//DarkGray%" i], a[href="//DarkGray" i], a[href^="//DarkGrey%" i], a[href="//DarkGrey" i] {
+	background-color: #A9A9A9;
+}
+
+a[href^="//DarkGreen%" i], a[href="//DarkGreen" i] {
+	background-color: #006400;
+}
+
+a[href^="//DarkKhaki%" i], a[href="//DarkKhaki" i] {
+	background-color: #BDB76B;
+}
+
+a[href^="//DarkMagenta%" i], a[href="//DarkMagenta" i] {
+	background-color: #8B008B;
+}
+
+a[href^="//DarkOliveGreen%" i], a[href="//DarkOliveGreen" i] {
+	background-color: #556B2F;
+}
+
+a[href^="//DarkOrange%" i], a[href="//DarkOrange" i] {
+	background-color: #FF8C00;
+}
+
+a[href^="//DarkOrchid%" i], a[href="//DarkOrchid" i] {
+	background-color: #9932CC;
+}
+
+a[href^="//DarkRed%" i], a[href="//DarkRed" i] {
+	background-color: #8B0000;
+}
+
+a[href^="//DarkSalmon%" i], a[href="//DarkSalmon" i] {
+	background-color: #E9967A;
+}
+
+a[href^="//DarkSeaGreen%" i], a[href="//DarkSeaGreen" i] {
+	background-color: #8FBC8F;
+}
+
+a[href^="//DarkSlateBlue%" i], a[href="//DarkSlateBlue" i] {
+	background-color: #483D8B;
+}
+
+a[href^="//DarkSlateGray%" i], a[href="//DarkSlateGray" i], a[href^="//DarkSlateGrey%" i], a[href="//DarkSlateGrey" i] {
+	background-color: #2F4F4F;
+}
+
+a[href^="//DarkTurquoise%" i], a[href="//DarkTurquoise" i] {
+	background-color: #00CED1;
+}
+
+a[href^="//DarkViolet%" i], a[href="//DarkViolet" i] {
+	background-color: #9400D3;
+}
+
+a[href^="//DeepPink%" i], a[href="//DeepPink" i] {
+	background-color: #FF1493;
+}
+
+a[href^="//DeepSkyBlue%" i], a[href="//DeepSkyBlue" i] {
+	background-color: #00BFFF;
+}
+
+a[href^="//DimGray%" i], a[href="//DimGray" i], a[href^="//DimGrey%" i], a[href="//DimGrey" i] {
+	background-color: #696969;
+}
+
+a[href^="//DodgerBlue%" i], a[href="//DodgerBlue" i] {
+	background-color: #1E90FF;
+}
+
+a[href^="//FireBrick%" i], a[href="//FireBrick" i] {
+	background-color: #B22222;
+}
+
+a[href^="//FloralWhite%" i], a[href="//FloralWhite" i] {
+	background-color: #FFFAF0;
+}
+
+a[href^="//ForestGreen%" i], a[href="//ForestGreen" i] {
+	background-color: #228B22;
+}
+
+a[href^="//Fuchsia%" i], a[href="//Fuchsia" i] {
+	background-color: #FF00FF;
+}
+
+a[href^="//Gainsboro%" i], a[href="//Gainsboro" i] {
+	background-color: #DCDCDC;
+}
+
+a[href^="//GhostWhite%" i], a[href="//GhostWhite" i] {
+	background-color: #F8F8FF;
+}
+
+a[href^="//Gold%" i], a[href="//Gold" i] {
+	background-color: #FFD700;
+}
+
+a[href^="//GoldenRod%" i], a[href="//GoldenRod" i] {
+	background-color: #DAA520;
+}
+
+a[href^="//Gray%" i], a[href="//Gray" i], a[href^="//Grey%" i], a[href="//Grey" i] {
+	background-color: #808080;
+}
+
+a[href^="//Green%" i], a[href="//Green" i] {
+	background-color: #008000;
+}
+
+a[href^="//GreenYellow%" i], a[href="//GreenYellow" i] {
+	background-color: #ADFF2F;
+}
+
+a[href^="//HoneyDew%" i], a[href="//HoneyDew" i] {
+	background-color: #F0FFF0;
+}
+
+a[href^="//HotPink%" i], a[href="//HotPink" i] {
+	background-color: #FF69B4;
+}
+
+a[href^="//IndianRed%" i], a[href="//IndianRed" i] {
+	background-color: #CD5C5C;
+}
+
+a[href^="//Indigo%" i], a[href="//Indigo" i] {
+	background-color: #4B0082;
+}
+
+a[href^="//Ivory%" i], a[href="//Ivory" i] {
+	background-color: #FFFFF0;
+}
+
+a[href^="//Khaki%" i], a[href="//Khaki" i] {
+	background-color: #F0E68C;
+}
+
+a[href^="//Lavender%" i], a[href="//Lavender" i] {
+	background-color: #E6E6FA;
+}
+
+a[href^="//LavenderBlush%" i], a[href="//LavenderBlush" i] {
+	background-color: #FFF0F5;
+}
+
+a[href^="//LawnGreen%" i], a[href="//LawnGreen" i] {
+	background-color: #7CFC00;
+}
+
+a[href^="//LemonChiffon%" i], a[href="//LemonChiffon" i] {
+	background-color: #FFFACD;
+}
+
+a[href^="//LightBlue%" i], a[href="//LightBlue" i] {
+	background-color: #ADD8E6;
+}
+
+a[href^="//LightCoral%" i], a[href="//LightCoral" i] {
+	background-color: #F08080;
+}
+
+a[href^="//LightCyan%" i], a[href="//LightCyan" i] {
+	background-color: #E0FFFF;
+}
+
+a[href^="//LightGoldenRodYellow%" i], a[href="//LightGoldenRodYellow" i] {
+	background-color: #FAFAD2;
+}
+
+a[href^="//LightGray%" i], a[href="//LightGray" i], a[href^="//LightGrey%" i], a[href="//LightGrey" i] {
+	background-color: #D3D3D3;
+}
+
+a[href^="//LightGreen%" i], a[href="//LightGreen" i] {
+	background-color: #90EE90;
+}
+
+a[href^="//LightPink%" i], a[href="//LightPink" i] {
+	background-color: #FFB6C1;
+}
+
+a[href^="//LightSalmon%" i], a[href="//LightSalmon" i] {
+	background-color: #FFA07A;
+}
+
+a[href^="//LightSeaGreen%" i], a[href="//LightSeaGreen" i] {
+	background-color: #20B2AA;
+}
+
+a[href^="//LightSkyBlue%" i], a[href="//LightSkyBlue" i] {
+	background-color: #87CEFA;
+}
+
+a[href^="//LightSlateGray%" i], a[href="//LightSlateGray" i], a[href^="//LightSlateGrey%" i], a[href="//LightSlateGrey" i] {
+	background-color: #778899;
+}
+
+a[href^="//LightSteelBlue%" i], a[href="//LightSteelBlue" i] {
+	background-color: #B0C4DE;
+}
+
+a[href^="//LightYellow%" i], a[href="//LightYellow" i] {
+	background-color: #FFFFE0;
+}
+
+a[href^="//Lime%" i], a[href="//Lime" i] {
+	background-color: #00FF00;
+}
+
+a[href^="//LimeGreen%" i], a[href="//LimeGreen" i] {
+	background-color: #32CD32;
+}
+
+a[href^="//Linen%" i], a[href="//Linen" i] {
+	background-color: #FAF0E6;
+}
+
+a[href^="//Magenta%" i], a[href="//Magenta" i] {
+	background-color: #FF00FF;
+}
+
+a[href^="//Maroon%" i], a[href="//Maroon" i] {
+	background-color: #800000;
+}
+
+a[href^="//MediumAquaMarine%" i], a[href="//MediumAquaMarine" i] {
+	background-color: #66CDAA;
+}
+
+a[href^="//MediumBlue%" i], a[href="//MediumBlue" i] {
+	background-color: #0000CD;
+}
+
+a[href^="//MediumOrchid%" i], a[href="//MediumOrchid" i] {
+	background-color: #BA55D3;
+}
+
+a[href^="//MediumPurple%" i], a[href="//MediumPurple" i] {
+	background-color: #9370DB;
+}
+
+a[href^="//MediumSeaGreen%" i], a[href="//MediumSeaGreen" i] {
+	background-color: #3CB371;
+}
+
+a[href^="//MediumSlateBlue%" i], a[href="//MediumSlateBlue" i] {
+	background-color: #7B68EE;
+}
+
+a[href^="//MediumSpringGreen%" i], a[href="//MediumSpringGreen" i] {
+	background-color: #00FA9A;
+}
+
+a[href^="//MediumTurquoise%" i], a[href="//MediumTurquoise" i] {
+	background-color: #48D1CC;
+}
+
+a[href^="//MediumVioletRed%" i], a[href="//MediumVioletRed" i] {
+	background-color: #C71585;
+}
+
+a[href^="//MidnightBlue%" i], a[href="//MidnightBlue" i] {
+	background-color: #191970;
+}
+
+a[href^="//MintCream%" i], a[href="//MintCream" i] {
+	background-color: #F5FFFA;
+}
+
+a[href^="//MistyRose%" i], a[href="//MistyRose" i] {
+	background-color: #FFE4E1;
+}
+
+a[href^="//Moccasin%" i], a[href="//Moccasin" i] {
+	background-color: #FFE4B5;
+}
+
+a[href^="//NavajoWhite%" i], a[href="//NavajoWhite" i] {
+	background-color: #FFDEAD;
+}
+
+a[href^="//Navy%" i], a[href="//Navy" i] {
+	background-color: #000080;
+}
+
+a[href^="//OldLace%" i], a[href="//OldLace" i] {
+	background-color: #FDF5E6;
+}
+
+a[href^="//Olive%" i], a[href="//Olive" i] {
+	background-color: #808000;
+}
+
+a[href^="//OliveDrab%" i], a[href="//OliveDrab" i] {
+	background-color: #6B8E23;
+}
+
+a[href^="//Orange%" i], a[href="//Orange" i] {
+	background-color: #FFA500;
+}
+
+a[href^="//OrangeRed%" i], a[href="//OrangeRed" i] {
+	background-color: #FF4500;
+}
+
+a[href^="//Orchid%" i], a[href="//Orchid" i] {
+	background-color: #DA70D6;
+}
+
+a[href^="//PaleGoldenRod%" i], a[href="//PaleGoldenRod" i] {
+	background-color: #EEE8AA;
+}
+
+a[href^="//PaleGreen%" i], a[href="//PaleGreen" i] {
+	background-color: #98FB98;
+}
+
+a[href^="//PaleTurquoise%" i], a[href="//PaleTurquoise" i] {
+	background-color: #AFEEEE;
+}
+
+a[href^="//PaleVioletRed%" i], a[href="//PaleVioletRed" i] {
+	background-color: #DB7093;
+}
+
+a[href^="//PapayaWhip%" i], a[href="//PapayaWhip" i] {
+	background-color: #FFEFD5;
+}
+
+a[href^="//PeachPuff%" i], a[href="//PeachPuff" i] {
+	background-color: #FFDAB9;
+}
+
+a[href^="//Peru%" i], a[href="//Peru" i] {
+	background-color: #CD853F;
+}
+
+a[href^="//Pink%" i], a[href="//Pink" i] {
+	background-color: #FFC0CB;
+}
+
+a[href^="//Plum%" i], a[href="//Plum" i] {
+	background-color: #DDA0DD;
+}
+
+a[href^="//PowderBlue%" i], a[href="//PowderBlue" i] {
+	background-color: #B0E0E6;
+}
+
+a[href^="//Purple%" i], a[href="//Purple" i] {
+	background-color: #800080;
+}
+
+a[href^="//RebeccaPurple%" i], a[href="//RebeccaPurple" i] {
+	background-color: #663399;
+}
+
+a[href^="//Red%" i], a[href="//Red" i] {
+	background-color: #FF0000;
+}
+
+a[href^="//RosyBrown%" i], a[href="//RosyBrown" i] {
+	background-color: #BC8F8F;
+}
+
+a[href^="//RoyalBlue%" i], a[href="//RoyalBlue" i] {
+	background-color: #4169E1;
+}
+
+a[href^="//SaddleBrown%" i], a[href="//SaddleBrown" i] {
+	background-color: #8B4513;
+}
+
+a[href^="//Salmon%" i], a[href="//Salmon" i] {
+	background-color: #FA8072;
+}
+
+a[href^="//SandyBrown%" i], a[href="//SandyBrown" i] {
+	background-color: #F4A460;
+}
+
+a[href^="//SeaGreen%" i], a[href="//SeaGreen" i] {
+	background-color: #2E8B57;
+}
+
+a[href^="//SeaShell%" i], a[href="//SeaShell" i] {
+	background-color: #FFF5EE;
+}
+
+a[href^="//Sienna%" i], a[href="//Sienna" i] {
+	background-color: #A0522D;
+}
+
+a[href^="//Silver%" i], a[href="//Silver" i] {
+	background-color: #C0C0C0;
+}
+
+a[href^="//SkyBlue%" i], a[href="//SkyBlue" i] {
+	background-color: #87CEEB;
+}
+
+a[href^="//SlateBlue%" i], a[href="//SlateBlue" i] {
+	background-color: #6A5ACD;
+}
+
+a[href^="//SlateGray%" i], a[href="//SlateGray" i], a[href^="//SlateGrey%" i], a[href="//SlateGrey" i] {
+	background-color: #708090;
+}
+
+a[href^="//Snow%" i], a[href="//Snow" i] {
+	background-color: #FFFAFA;
+}
+
+a[href^="//SpringGreen%" i], a[href="//SpringGreen" i] {
+	background-color: #00FF7F;
+}
+
+a[href^="//SteelBlue%" i], a[href="//SteelBlue" i] {
+	background-color: #4682B4;
+}
+
+a[href^="//Tan%" i], a[href="//Tan" i] {
+	background-color: #D2B48C;
+}
+
+a[href^="//Teal%" i], a[href="//Teal" i] {
+	background-color: #008080;
+}
+
+a[href^="//Thistle%" i], a[href="//Thistle" i] {
+	background-color: #D8BFD8;
+}
+
+a[href^="//Tomato%" i], a[href="//Tomato" i] {
+	background-color: #FF6347;
+}
+
+a[href^="//Turquoise%" i], a[href="//Turquoise" i] {
+	background-color: #40E0D0;
+}
+
+a[href^="//Violet%" i], a[href="//Violet" i] {
+	background-color: #EE82EE;
+}
+
+a[href^="//Wheat%" i], a[href="//Wheat" i] {
+	background-color: #F5DEB3;
+}
+
+a[href^="//White%" i], a[href="//White" i] {
+	background-color: #FFFFFF;
+}
+
+a[href^="//WhiteSmoke%" i], a[href="//WhiteSmoke" i] {
+	background-color: #F5F5F5;
+}
+
+a[href^="//Yellow%" i], a[href="//Yellow" i] {
+	background-color: #FFFF00;
+}
+
+a[href^="//YellowGreen%" i], a[href="//YellowGreen" i] {
+	background-color: #9ACD32;
+}
+
+a[href$="/to_Transparent" i] {
+	animation: to_Transparent 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_AliceBlue" i] {
+	animation: to_AliceBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_AntiqueWhite" i] {
+	animation: to_AntiqueWhite 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Aqua" i] {
+	animation: to_Aqua 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Aquamarine" i] {
+	animation: to_Aquamarine 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Azure" i] {
+	animation: to_Azure 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Beige" i] {
+	animation: to_Beige 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Bisque" i] {
+	animation: to_Bisque 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Black" i] {
+	animation: to_Black 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_BlanchedAlmond" i] {
+	animation: to_BlanchedAlmond 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Blue" i] {
+	animation: to_Blue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_BlueViolet" i] {
+	animation: to_BlueViolet 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Brown" i] {
+	animation: to_Brown 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_BurlyWood" i] {
+	animation: to_BurlyWood 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_CadetBlue" i] {
+	animation: to_CadetBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Chartreuse" i] {
+	animation: to_Chartreuse 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Chocolate" i] {
+	animation: to_Chocolate 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Coral" i] {
+	animation: to_Coral 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_CornflowerBlue" i] {
+	animation: to_CornflowerBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Cornsilk" i] {
+	animation: to_Cornsilk 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Crimson" i] {
+	animation: to_Crimson 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Cyan" i] {
+	animation: to_Cyan 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkBlue" i] {
+	animation: to_DarkBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkCyan" i] {
+	animation: to_DarkCyan 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkGoldenRod" i] {
+	animation: to_DarkGoldenRod 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkGray" i], a[href$="/to_DarkGrey" i] {
+	animation: to_DarkGrey 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkGreen" i] {
+	animation: to_DarkGreen 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkKhaki" i] {
+	animation: to_DarkKhaki 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkMagenta" i] {
+	animation: to_DarkMagenta 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkOliveGreen" i] {
+	animation: to_DarkOliveGreen 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkOrange" i] {
+	animation: to_DarkOrange 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkOrchid" i] {
+	animation: to_DarkOrchid 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkRed" i] {
+	animation: to_DarkRed 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkSalmon" i] {
+	animation: to_DarkSalmon 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkSeaGreen" i] {
+	animation: to_DarkSeaGreen 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkSlateBlue" i] {
+	animation: to_DarkSlateBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkSlateGray" i], a[href$="/to_DarkSlateGrey" i] {
+	animation: to_DarkSlateGrey 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkTurquoise" i] {
+	animation: to_DarkTurquoise 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DarkViolet" i] {
+	animation: to_DarkViolet 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DeepPink" i] {
+	animation: to_DeepPink 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DeepSkyBlue" i] {
+	animation: to_DeepSkyBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DimGray" i], a[href$="/to_DimGrey" i] {
+	animation: to_DimGrey 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_DodgerBlue" i] {
+	animation: to_DodgerBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_FireBrick" i] {
+	animation: to_FireBrick 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_FloralWhite" i] {
+	animation: to_FloralWhite 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_ForestGreen" i] {
+	animation: to_ForestGreen 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Fuchsia" i] {
+	animation: to_Fuchsia 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Gainsboro" i] {
+	animation: to_Gainsboro 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_GhostWhite" i] {
+	animation: to_GhostWhite 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Gold" i] {
+	animation: to_Gold 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_GoldenRod" i] {
+	animation: to_GoldenRod 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Gray" i], a[href$="/to_Grey" i] {
+	animation: to_Grey 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Green" i] {
+	animation: to_Green 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_GreenYellow" i] {
+	animation: to_GreenYellow 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_HoneyDew" i] {
+	animation: to_HoneyDew 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_HotPink" i] {
+	animation: to_HotPink 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_IndianRed" i] {
+	animation: to_IndianRed 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Indigo" i] {
+	animation: to_Indigo 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Ivory" i] {
+	animation: to_Ivory 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Khaki" i] {
+	animation: to_Khaki 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Lavender" i] {
+	animation: to_Lavender 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LavenderBlush" i] {
+	animation: to_LavenderBlush 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LawnGreen" i] {
+	animation: to_LawnGreen 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LemonChiffon" i] {
+	animation: to_LemonChiffon 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LightBlue" i] {
+	animation: to_LightBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LightCoral" i] {
+	animation: to_LightCoral 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LightCyan" i] {
+	animation: to_LightCyan 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LightGoldenRodYellow" i] {
+	animation: to_LightGoldenRodYellow 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LightGray" i], a[href$="/to_LightGrey" i] {
+	animation: to_LightGrey 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LightGreen" i] {
+	animation: to_LightGreen 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LightPink" i] {
+	animation: to_LightPink 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LightSalmon" i] {
+	animation: to_LightSalmon 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LightSeaGreen" i] {
+	animation: to_LightSeaGreen 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LightSkyBlue" i] {
+	animation: to_LightSkyBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LightSlateGray" i], a[href$="/to_LightSlateGrey" i] {
+	animation: to_LightSlateGrey 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LightSteelBlue" i] {
+	animation: to_LightSteelBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LightYellow" i] {
+	animation: to_LightYellow 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Lime" i] {
+	animation: to_Lime 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_LimeGreen" i] {
+	animation: to_LimeGreen 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Linen" i] {
+	animation: to_Linen 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Magenta" i] {
+	animation: to_Magenta 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Maroon" i] {
+	animation: to_Maroon 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_MediumAquaMarine" i] {
+	animation: to_MediumAquaMarine 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_MediumBlue" i] {
+	animation: to_MediumBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_MediumOrchid" i] {
+	animation: to_MediumOrchid 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_MediumPurple" i] {
+	animation: to_MediumPurple 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_MediumSeaGreen" i] {
+	animation: to_MediumSeaGreen 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_MediumSlateBlue" i] {
+	animation: to_MediumSlateBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_MediumSpringGreen" i] {
+	animation: to_MediumSpringGreen 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_MediumTurquoise" i] {
+	animation: to_MediumTurquoise 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_MediumVioletRed" i] {
+	animation: to_MediumVioletRed 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_MidnightBlue" i] {
+	animation: to_MidnightBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_MintCream" i] {
+	animation: to_MintCream 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_MistyRose" i] {
+	animation: to_MistyRose 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Moccasin" i] {
+	animation: to_Moccasin 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_NavajoWhite" i] {
+	animation: to_NavajoWhite 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Navy" i] {
+	animation: to_Navy 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_OldLace" i] {
+	animation: to_OldLace 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Olive" i] {
+	animation: to_Olive 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_OliveDrab" i] {
+	animation: to_OliveDrab 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Orange" i] {
+	animation: to_Orange 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_OrangeRed" i] {
+	animation: to_OrangeRed 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Orchid" i] {
+	animation: to_Orchid 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_PaleGoldenRod" i] {
+	animation: to_PaleGoldenRod 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_PaleGreen" i] {
+	animation: to_PaleGreen 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_PaleTurquoise" i] {
+	animation: to_PaleTurquoise 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_PaleVioletRed" i] {
+	animation: to_PaleVioletRed 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_PapayaWhip" i] {
+	animation: to_PapayaWhip 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_PeachPuff" i] {
+	animation: to_PeachPuff 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Peru" i] {
+	animation: to_Peru 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Pink" i] {
+	animation: to_Pink 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Plum" i] {
+	animation: to_Plum 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_PowderBlue" i] {
+	animation: to_PowderBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Purple" i] {
+	animation: to_Purple 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_RebeccaPurple" i] {
+	animation: to_RebeccaPurple 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Red" i] {
+	animation: to_Red 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_RosyBrown" i] {
+	animation: to_RosyBrown 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_RoyalBlue" i] {
+	animation: to_RoyalBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_SaddleBrown" i] {
+	animation: to_SaddleBrown 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Salmon" i] {
+	animation: to_Salmon 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_SandyBrown" i] {
+	animation: to_SandyBrown 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_SeaGreen" i] {
+	animation: to_SeaGreen 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_SeaShell" i] {
+	animation: to_SeaShell 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Sienna" i] {
+	animation: to_Sienna 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Silver" i] {
+	animation: to_Silver 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_SkyBlue" i] {
+	animation: to_SkyBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_SlateBlue" i] {
+	animation: to_SlateBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_SlateGray" i], a[href$="/to_SlateGrey" i] {
+	animation: to_SlateGrey 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Snow" i] {
+	animation: to_Snow 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_SpringGreen" i] {
+	animation: to_SpringGreen 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_SteelBlue" i] {
+	animation: to_SteelBlue 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Tan" i] {
+	animation: to_Tan 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Teal" i] {
+	animation: to_Teal 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Thistle" i] {
+	animation: to_Thistle 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Tomato" i] {
+	animation: to_Tomato 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Turquoise" i] {
+	animation: to_Turquoise 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Violet" i] {
+	animation: to_Violet 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Wheat" i] {
+	animation: to_Wheat 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_White" i] {
+	animation: to_White 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_WhiteSmoke" i] {
+	animation: to_WhiteSmoke 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Yellow" i] {
+	animation: to_Yellow 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_YellowGreen" i] {
+	animation: to_YellowGreen 0.5s 0s infinite steps(1) alternate;
+}
+
+a[href$="/to_Transparent" i][href*="/smooth" i] {
+	animation: to_Transparent_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_AliceBlue" i][href*="/smooth" i] {
+	animation: to_AliceBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_AntiqueWhite" i][href*="/smooth" i] {
+	animation: to_AntiqueWhite_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Aqua" i][href*="/smooth" i] {
+	animation: to_Aqua_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Aquamarine" i][href*="/smooth" i] {
+	animation: to_Aquamarine_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Azure" i][href*="/smooth" i] {
+	animation: to_Azure_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Beige" i][href*="/smooth" i] {
+	animation: to_Beige_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Bisque" i][href*="/smooth" i] {
+	animation: to_Bisque_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Black" i][href*="/smooth" i] {
+	animation: to_Black_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_BlanchedAlmond" i][href*="/smooth" i] {
+	animation: to_BlanchedAlmond_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Blue" i][href*="/smooth" i] {
+	animation: to_Blue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_BlueViolet" i][href*="/smooth" i] {
+	animation: to_BlueViolet_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Brown" i][href*="/smooth" i] {
+	animation: to_Brown_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_BurlyWood" i][href*="/smooth" i] {
+	animation: to_BurlyWood_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_CadetBlue" i][href*="/smooth" i] {
+	animation: to_CadetBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Chartreuse" i][href*="/smooth" i] {
+	animation: to_Chartreuse_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Chocolate" i][href*="/smooth" i] {
+	animation: to_Chocolate_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Coral" i][href*="/smooth" i] {
+	animation: to_Coral_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_CornflowerBlue" i][href*="/smooth" i] {
+	animation: to_CornflowerBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Cornsilk" i][href*="/smooth" i] {
+	animation: to_Cornsilk_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Crimson" i][href*="/smooth" i] {
+	animation: to_Crimson_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Cyan" i][href*="/smooth" i] {
+	animation: to_Cyan_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkBlue" i][href*="/smooth" i] {
+	animation: to_DarkBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkCyan" i][href*="/smooth" i] {
+	animation: to_DarkCyan_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkGoldenRod" i][href*="/smooth" i] {
+	animation: to_DarkGoldenRod_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkGray" i][href*="/smooth" i], a[href$="/to_DarkGrey" i][href*="/smooth" i] {
+	animation: to_DarkGrey_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkGreen" i][href*="/smooth" i] {
+	animation: to_DarkGreen_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkKhaki" i][href*="/smooth" i] {
+	animation: to_DarkKhaki_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkMagenta" i][href*="/smooth" i] {
+	animation: to_DarkMagenta_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkOliveGreen" i][href*="/smooth" i] {
+	animation: to_DarkOliveGreen_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkOrange" i][href*="/smooth" i] {
+	animation: to_DarkOrange_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkOrchid" i][href*="/smooth" i] {
+	animation: to_DarkOrchid_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkRed" i][href*="/smooth" i] {
+	animation: to_DarkRed_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkSalmon" i][href*="/smooth" i] {
+	animation: to_DarkSalmon_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkSeaGreen" i][href*="/smooth" i] {
+	animation: to_DarkSeaGreen_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkSlateBlue" i][href*="/smooth" i] {
+	animation: to_DarkSlateBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkSlateGray" i][href*="/smooth" i], a[href$="/to_DarkSlateGrey" i][href*="/smooth" i] {
+	animation: to_DarkSlateGrey_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkTurquoise" i][href*="/smooth" i] {
+	animation: to_DarkTurquoise_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DarkViolet" i][href*="/smooth" i] {
+	animation: to_DarkViolet_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DeepPink" i][href*="/smooth" i] {
+	animation: to_DeepPink_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DeepSkyBlue" i][href*="/smooth" i] {
+	animation: to_DeepSkyBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DimGray" i][href*="/smooth" i], a[href$="/to_DimGrey" i][href*="/smooth" i] {
+	animation: to_DimGrey_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_DodgerBlue" i][href*="/smooth" i] {
+	animation: to_DodgerBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_FireBrick" i][href*="/smooth" i] {
+	animation: to_FireBrick_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_FloralWhite" i][href*="/smooth" i] {
+	animation: to_FloralWhite_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_ForestGreen" i][href*="/smooth" i] {
+	animation: to_ForestGreen_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Fuchsia" i][href*="/smooth" i] {
+	animation: to_Fuchsia_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Gainsboro" i][href*="/smooth" i] {
+	animation: to_Gainsboro_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_GhostWhite" i][href*="/smooth" i] {
+	animation: to_GhostWhite_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Gold" i][href*="/smooth" i] {
+	animation: to_Gold_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_GoldenRod" i][href*="/smooth" i] {
+	animation: to_GoldenRod_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Gray" i][href*="/smooth" i], a[href$="/to_Grey" i][href*="/smooth" i] {
+	animation: to_Grey_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Green" i][href*="/smooth" i] {
+	animation: to_Green_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_GreenYellow" i][href*="/smooth" i] {
+	animation: to_GreenYellow_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_HoneyDew" i][href*="/smooth" i] {
+	animation: to_HoneyDew_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_HotPink" i][href*="/smooth" i] {
+	animation: to_HotPink_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_IndianRed" i][href*="/smooth" i] {
+	animation: to_IndianRed_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Indigo" i][href*="/smooth" i] {
+	animation: to_Indigo_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Ivory" i][href*="/smooth" i] {
+	animation: to_Ivory_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Khaki" i][href*="/smooth" i] {
+	animation: to_Khaki_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Lavender" i][href*="/smooth" i] {
+	animation: to_Lavender_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LavenderBlush" i][href*="/smooth" i] {
+	animation: to_LavenderBlush_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LawnGreen" i][href*="/smooth" i] {
+	animation: to_LawnGreen_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LemonChiffon" i][href*="/smooth" i] {
+	animation: to_LemonChiffon_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LightBlue" i][href*="/smooth" i] {
+	animation: to_LightBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LightCoral" i][href*="/smooth" i] {
+	animation: to_LightCoral_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LightCyan" i][href*="/smooth" i] {
+	animation: to_LightCyan_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LightGoldenRodYellow" i][href*="/smooth" i] {
+	animation: to_LightGoldenRodYellow_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LightGray" i][href*="/smooth" i], a[href$="/to_LightGrey" i][href*="/smooth" i] {
+	animation: to_LightGrey_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LightGreen" i][href*="/smooth" i] {
+	animation: to_LightGreen_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LightPink" i][href*="/smooth" i] {
+	animation: to_LightPink_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LightSalmon" i][href*="/smooth" i] {
+	animation: to_LightSalmon_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LightSeaGreen" i][href*="/smooth" i] {
+	animation: to_LightSeaGreen_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LightSkyBlue" i][href*="/smooth" i] {
+	animation: to_LightSkyBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LightSlateGray" i][href*="/smooth" i], a[href$="/to_LightSlateGrey" i][href*="/smooth" i] {
+	animation: to_LightSlateGrey_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LightSteelBlue" i][href*="/smooth" i] {
+	animation: to_LightSteelBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LightYellow" i][href*="/smooth" i] {
+	animation: to_LightYellow_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Lime" i][href*="/smooth" i] {
+	animation: to_Lime_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_LimeGreen" i][href*="/smooth" i] {
+	animation: to_LimeGreen_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Linen" i][href*="/smooth" i] {
+	animation: to_Linen_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Magenta" i][href*="/smooth" i] {
+	animation: to_Magenta_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Maroon" i][href*="/smooth" i] {
+	animation: to_Maroon_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_MediumAquaMarine" i][href*="/smooth" i] {
+	animation: to_MediumAquaMarine_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_MediumBlue" i][href*="/smooth" i] {
+	animation: to_MediumBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_MediumOrchid" i][href*="/smooth" i] {
+	animation: to_MediumOrchid_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_MediumPurple" i][href*="/smooth" i] {
+	animation: to_MediumPurple_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_MediumSeaGreen" i][href*="/smooth" i] {
+	animation: to_MediumSeaGreen_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_MediumSlateBlue" i][href*="/smooth" i] {
+	animation: to_MediumSlateBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_MediumSpringGreen" i][href*="/smooth" i] {
+	animation: to_MediumSpringGreen_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_MediumTurquoise" i][href*="/smooth" i] {
+	animation: to_MediumTurquoise_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_MediumVioletRed" i][href*="/smooth" i] {
+	animation: to_MediumVioletRed_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_MidnightBlue" i][href*="/smooth" i] {
+	animation: to_MidnightBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_MintCream" i][href*="/smooth" i] {
+	animation: to_MintCream_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_MistyRose" i][href*="/smooth" i] {
+	animation: to_MistyRose_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Moccasin" i][href*="/smooth" i] {
+	animation: to_Moccasin_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_NavajoWhite" i][href*="/smooth" i] {
+	animation: to_NavajoWhite_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Navy" i][href*="/smooth" i] {
+	animation: to_Navy_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_OldLace" i][href*="/smooth" i] {
+	animation: to_OldLace_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Olive" i][href*="/smooth" i] {
+	animation: to_Olive_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_OliveDrab" i][href*="/smooth" i] {
+	animation: to_OliveDrab_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Orange" i][href*="/smooth" i] {
+	animation: to_Orange_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_OrangeRed" i][href*="/smooth" i] {
+	animation: to_OrangeRed_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Orchid" i][href*="/smooth" i] {
+	animation: to_Orchid_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_PaleGoldenRod" i][href*="/smooth" i] {
+	animation: to_PaleGoldenRod_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_PaleGreen" i][href*="/smooth" i] {
+	animation: to_PaleGreen_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_PaleTurquoise" i][href*="/smooth" i] {
+	animation: to_PaleTurquoise_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_PaleVioletRed" i][href*="/smooth" i] {
+	animation: to_PaleVioletRed_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_PapayaWhip" i][href*="/smooth" i] {
+	animation: to_PapayaWhip_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_PeachPuff" i][href*="/smooth" i] {
+	animation: to_PeachPuff_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Peru" i][href*="/smooth" i] {
+	animation: to_Peru_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Pink" i][href*="/smooth" i] {
+	animation: to_Pink_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Plum" i][href*="/smooth" i] {
+	animation: to_Plum_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_PowderBlue" i][href*="/smooth" i] {
+	animation: to_PowderBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Purple" i][href*="/smooth" i] {
+	animation: to_Purple_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_RebeccaPurple" i][href*="/smooth" i] {
+	animation: to_RebeccaPurple_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Red" i][href*="/smooth" i] {
+	animation: to_Red_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_RosyBrown" i][href*="/smooth" i] {
+	animation: to_RosyBrown_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_RoyalBlue" i][href*="/smooth" i] {
+	animation: to_RoyalBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_SaddleBrown" i][href*="/smooth" i] {
+	animation: to_SaddleBrown_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Salmon" i][href*="/smooth" i] {
+	animation: to_Salmon_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_SandyBrown" i][href*="/smooth" i] {
+	animation: to_SandyBrown_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_SeaGreen" i][href*="/smooth" i] {
+	animation: to_SeaGreen_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_SeaShell" i][href*="/smooth" i] {
+	animation: to_SeaShell_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Sienna" i][href*="/smooth" i] {
+	animation: to_Sienna_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Silver" i][href*="/smooth" i] {
+	animation: to_Silver_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_SkyBlue" i][href*="/smooth" i] {
+	animation: to_SkyBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_SlateBlue" i][href*="/smooth" i] {
+	animation: to_SlateBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_SlateGray" i][href*="/smooth" i], a[href$="/to_SlateGrey" i][href*="/smooth" i] {
+	animation: to_SlateGrey_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Snow" i][href*="/smooth" i] {
+	animation: to_Snow_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_SpringGreen" i][href*="/smooth" i] {
+	animation: to_SpringGreen_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_SteelBlue" i][href*="/smooth" i] {
+	animation: to_SteelBlue_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Tan" i][href*="/smooth" i] {
+	animation: to_Tan_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Teal" i][href*="/smooth" i] {
+	animation: to_Teal_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Thistle" i][href*="/smooth" i] {
+	animation: to_Thistle_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Tomato" i][href*="/smooth" i] {
+	animation: to_Tomato_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Turquoise" i][href*="/smooth" i] {
+	animation: to_Turquoise_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Violet" i][href*="/smooth" i] {
+	animation: to_Violet_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Wheat" i][href*="/smooth" i] {
+	animation: to_Wheat_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_White" i][href*="/smooth" i] {
+	animation: to_White_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_WhiteSmoke" i][href*="/smooth" i] {
+	animation: to_WhiteSmoke_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_Yellow" i][href*="/smooth" i] {
+	animation: to_Yellow_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+a[href$="/to_YellowGreen" i][href*="/smooth" i] {
+	animation: to_YellowGreen_smooth 0.5s 0s infinite ease-in-out alternate;
+}
+
+@keyframes to_Transparent {
+	50% {
+		background-color: transparent;
+	}
+}
+
+@keyframes to_AliceBlue {
+	50% {
+		background-color: #F0F8FF;
+	}
+}
+
+@keyframes to_AntiqueWhite {
+	50% {
+		background-color: #FAEBD7;
+	}
+}
+
+@keyframes to_Aqua {
+	50% {
+		background-color: #00FFFF;
+	}
+}
+
+@keyframes to_Aquamarine {
+	50% {
+		background-color: #7FFFD4;
+	}
+}
+
+@keyframes to_Azure {
+	50% {
+		background-color: #F0FFFF;
+	}
+}
+
+@keyframes to_Beige {
+	50% {
+		background-color: #F5F5DC;
+	}
+}
+
+@keyframes to_Bisque {
+	50% {
+		background-color: #FFE4C4;
+	}
+}
+
+@keyframes to_Black {
+	50% {
+		background-color: #000000;
+	}
+}
+
+@keyframes to_BlanchedAlmond {
+	50% {
+		background-color: #FFEBCD;
+	}
+}
+
+@keyframes to_Blue {
+	50% {
+		background-color: #0000FF;
+	}
+}
+
+@keyframes to_BlueViolet {
+	50% {
+		background-color: #8A2BE2;
+	}
+}
+
+@keyframes to_Brown {
+	50% {
+		background-color: #A52A2A;
+	}
+}
+
+@keyframes to_BurlyWood {
+	50% {
+		background-color: #DEB887;
+	}
+}
+
+@keyframes to_CadetBlue {
+	50% {
+		background-color: #5F9EA0;
+	}
+}
+
+@keyframes to_Chartreuse {
+	50% {
+		background-color: #7FFF00;
+	}
+}
+
+@keyframes to_Chocolate {
+	50% {
+		background-color: #D2691E;
+	}
+}
+
+@keyframes to_Coral {
+	50% {
+		background-color: #FF7F50;
+	}
+}
+
+@keyframes to_CornflowerBlue {
+	50% {
+		background-color: #6495ED;
+	}
+}
+
+@keyframes to_Cornsilk {
+	50% {
+		background-color: #FFF8DC;
+	}
+}
+
+@keyframes to_Crimson {
+	50% {
+		background-color: #DC143C;
+	}
+}
+
+@keyframes to_Cyan {
+	50% {
+		background-color: #00FFFF;
+	}
+}
+
+@keyframes to_DarkBlue {
+	50% {
+		background-color: #00008B;
+	}
+}
+
+@keyframes to_DarkCyan {
+	50% {
+		background-color: #008B8B;
+	}
+}
+
+@keyframes to_DarkGoldenRod {
+	50% {
+		background-color: #B8860B;
+	}
+}
+
+@keyframes to_DarkGrey {
+	50% {
+		background-color: #A9A9A9;
+	}
+}
+
+@keyframes to_DarkGreen {
+	50% {
+		background-color: #006400;
+	}
+}
+
+@keyframes to_DarkKhaki {
+	50% {
+		background-color: #BDB76B;
+	}
+}
+
+@keyframes to_DarkMagenta {
+	50% {
+		background-color: #8B008B;
+	}
+}
+
+@keyframes to_DarkOliveGreen {
+	50% {
+		background-color: #556B2F;
+	}
+}
+
+@keyframes to_DarkOrange {
+	50% {
+		background-color: #FF8C00;
+	}
+}
+
+@keyframes to_DarkOrchid {
+	50% {
+		background-color: #9932CC;
+	}
+}
+
+@keyframes to_DarkRed {
+	50% {
+		background-color: #8B0000;
+	}
+}
+
+@keyframes to_DarkSalmon {
+	50% {
+		background-color: #E9967A;
+	}
+}
+
+@keyframes to_DarkSeaGreen {
+	50% {
+		background-color: #8FBC8F;
+	}
+}
+
+@keyframes to_DarkSlateBlue {
+	50% {
+		background-color: #483D8B;
+	}
+}
+
+@keyframes to_DarkSlateGrey {
+	50% {
+		background-color: #2F4F4F;
+	}
+}
+
+@keyframes to_DarkTurquoise {
+	50% {
+		background-color: #00CED1;
+	}
+}
+
+@keyframes to_DarkViolet {
+	50% {
+		background-color: #9400D3;
+	}
+}
+
+@keyframes to_DeepPink {
+	50% {
+		background-color: #FF1493;
+	}
+}
+
+@keyframes to_DeepSkyBlue {
+	50% {
+		background-color: #00BFFF;
+	}
+}
+
+@keyframes to_DimGrey {
+	50% {
+		background-color: #696969;
+	}
+}
+
+@keyframes to_DodgerBlue {
+	50% {
+		background-color: #1E90FF;
+	}
+}
+
+@keyframes to_FireBrick {
+	50% {
+		background-color: #B22222;
+	}
+}
+
+@keyframes to_FloralWhite {
+	50% {
+		background-color: #FFFAF0;
+	}
+}
+
+@keyframes to_ForestGreen {
+	50% {
+		background-color: #228B22;
+	}
+}
+
+@keyframes to_Fuchsia {
+	50% {
+		background-color: #FF00FF;
+	}
+}
+
+@keyframes to_Gainsboro {
+	50% {
+		background-color: #DCDCDC;
+	}
+}
+
+@keyframes to_GhostWhite {
+	50% {
+		background-color: #F8F8FF;
+	}
+}
+
+@keyframes to_Gold {
+	50% {
+		background-color: #FFD700;
+	}
+}
+
+@keyframes to_GoldenRod {
+	50% {
+		background-color: #DAA520;
+	}
+}
+
+@keyframes to_Grey {
+	50% {
+		background-color: #808080;
+	}
+}
+
+@keyframes to_Green {
+	50% {
+		background-color: #008000;
+	}
+}
+
+@keyframes to_GreenYellow {
+	50% {
+		background-color: #ADFF2F;
+	}
+}
+
+@keyframes to_HoneyDew {
+	50% {
+		background-color: #F0FFF0;
+	}
+}
+
+@keyframes to_HotPink {
+	50% {
+		background-color: #FF69B4;
+	}
+}
+
+@keyframes to_IndianRed {
+	50% {
+		background-color: #CD5C5C;
+	}
+}
+
+@keyframes to_Indigo {
+	50% {
+		background-color: #4B0082;
+	}
+}
+
+@keyframes to_Ivory {
+	50% {
+		background-color: #FFFFF0;
+	}
+}
+
+@keyframes to_Khaki {
+	50% {
+		background-color: #F0E68C;
+	}
+}
+
+@keyframes to_Lavender {
+	50% {
+		background-color: #E6E6FA;
+	}
+}
+
+@keyframes to_LavenderBlush {
+	50% {
+		background-color: #FFF0F5;
+	}
+}
+
+@keyframes to_LawnGreen {
+	50% {
+		background-color: #7CFC00;
+	}
+}
+
+@keyframes to_LemonChiffon {
+	50% {
+		background-color: #FFFACD;
+	}
+}
+
+@keyframes to_LightBlue {
+	50% {
+		background-color: #ADD8E6;
+	}
+}
+
+@keyframes to_LightCoral {
+	50% {
+		background-color: #F08080;
+	}
+}
+
+@keyframes to_LightCyan {
+	50% {
+		background-color: #E0FFFF;
+	}
+}
+
+@keyframes to_LightGoldenRodYellow {
+	50% {
+		background-color: #FAFAD2;
+	}
+}
+
+@keyframes to_LightGrey {
+	50% {
+		background-color: #D3D3D3;
+	}
+}
+
+@keyframes to_LightGreen {
+	50% {
+		background-color: #90EE90;
+	}
+}
+
+@keyframes to_LightPink {
+	50% {
+		background-color: #FFB6C1;
+	}
+}
+
+@keyframes to_LightSalmon {
+	50% {
+		background-color: #FFA07A;
+	}
+}
+
+@keyframes to_LightSeaGreen {
+	50% {
+		background-color: #20B2AA;
+	}
+}
+
+@keyframes to_LightSkyBlue {
+	50% {
+		background-color: #87CEFA;
+	}
+}
+
+@keyframes to_LightSlateGrey {
+	50% {
+		background-color: #778899;
+	}
+}
+
+@keyframes to_LightSteelBlue {
+	50% {
+		background-color: #B0C4DE;
+	}
+}
+
+@keyframes to_LightYellow {
+	50% {
+		background-color: #FFFFE0;
+	}
+}
+
+@keyframes to_Lime {
+	50% {
+		background-color: #00FF00;
+	}
+}
+
+@keyframes to_LimeGreen {
+	50% {
+		background-color: #32CD32;
+	}
+}
+
+@keyframes to_Linen {
+	50% {
+		background-color: #FAF0E6;
+	}
+}
+
+@keyframes to_Magenta {
+	50% {
+		background-color: #FF00FF;
+	}
+}
+
+@keyframes to_Maroon {
+	50% {
+		background-color: #800000;
+	}
+}
+
+@keyframes to_MediumAquaMarine {
+	50% {
+		background-color: #66CDAA;
+	}
+}
+
+@keyframes to_MediumBlue {
+	50% {
+		background-color: #0000CD;
+	}
+}
+
+@keyframes to_MediumOrchid {
+	50% {
+		background-color: #BA55D3;
+	}
+}
+
+@keyframes to_MediumPurple {
+	50% {
+		background-color: #9370DB;
+	}
+}
+
+@keyframes to_MediumSeaGreen {
+	50% {
+		background-color: #3CB371;
+	}
+}
+
+@keyframes to_MediumSlateBlue {
+	50% {
+		background-color: #7B68EE;
+	}
+}
+
+@keyframes to_MediumSpringGreen {
+	50% {
+		background-color: #00FA9A;
+	}
+}
+
+@keyframes to_MediumTurquoise {
+	50% {
+		background-color: #48D1CC;
+	}
+}
+
+@keyframes to_MediumVioletRed {
+	50% {
+		background-color: #C71585;
+	}
+}
+
+@keyframes to_MidnightBlue {
+	50% {
+		background-color: #191970;
+	}
+}
+
+@keyframes to_MintCream {
+	50% {
+		background-color: #F5FFFA;
+	}
+}
+
+@keyframes to_MistyRose {
+	50% {
+		background-color: #FFE4E1;
+	}
+}
+
+@keyframes to_Moccasin {
+	50% {
+		background-color: #FFE4B5;
+	}
+}
+
+@keyframes to_NavajoWhite {
+	50% {
+		background-color: #FFDEAD;
+	}
+}
+
+@keyframes to_Navy {
+	50% {
+		background-color: #000080;
+	}
+}
+
+@keyframes to_OldLace {
+	50% {
+		background-color: #FDF5E6;
+	}
+}
+
+@keyframes to_Olive {
+	50% {
+		background-color: #808000;
+	}
+}
+
+@keyframes to_OliveDrab {
+	50% {
+		background-color: #6B8E23;
+	}
+}
+
+@keyframes to_Orange {
+	50% {
+		background-color: #FFA500;
+	}
+}
+
+@keyframes to_OrangeRed {
+	50% {
+		background-color: #FF4500;
+	}
+}
+
+@keyframes to_Orchid {
+	50% {
+		background-color: #DA70D6;
+	}
+}
+
+@keyframes to_PaleGoldenRod {
+	50% {
+		background-color: #EEE8AA;
+	}
+}
+
+@keyframes to_PaleGreen {
+	50% {
+		background-color: #98FB98;
+	}
+}
+
+@keyframes to_PaleTurquoise {
+	50% {
+		background-color: #AFEEEE;
+	}
+}
+
+@keyframes to_PaleVioletRed {
+	50% {
+		background-color: #DB7093;
+	}
+}
+
+@keyframes to_PapayaWhip {
+	50% {
+		background-color: #FFEFD5;
+	}
+}
+
+@keyframes to_PeachPuff {
+	50% {
+		background-color: #FFDAB9;
+	}
+}
+
+@keyframes to_Peru {
+	50% {
+		background-color: #CD853F;
+	}
+}
+
+@keyframes to_Pink {
+	50% {
+		background-color: #FFC0CB;
+	}
+}
+
+@keyframes to_Plum {
+	50% {
+		background-color: #DDA0DD;
+	}
+}
+
+@keyframes to_PowderBlue {
+	50% {
+		background-color: #B0E0E6;
+	}
+}
+
+@keyframes to_Purple {
+	50% {
+		background-color: #800080;
+	}
+}
+
+@keyframes to_RebeccaPurple {
+	50% {
+		background-color: #663399;
+	}
+}
+
+@keyframes to_Red {
+	50% {
+		background-color: #FF0000;
+	}
+}
+
+@keyframes to_RosyBrown {
+	50% {
+		background-color: #BC8F8F;
+	}
+}
+
+@keyframes to_RoyalBlue {
+	50% {
+		background-color: #4169E1;
+	}
+}
+
+@keyframes to_SaddleBrown {
+	50% {
+		background-color: #8B4513;
+	}
+}
+
+@keyframes to_Salmon {
+	50% {
+		background-color: #FA8072;
+	}
+}
+
+@keyframes to_SandyBrown {
+	50% {
+		background-color: #F4A460;
+	}
+}
+
+@keyframes to_SeaGreen {
+	50% {
+		background-color: #2E8B57;
+	}
+}
+
+@keyframes to_SeaShell {
+	50% {
+		background-color: #FFF5EE;
+	}
+}
+
+@keyframes to_Sienna {
+	50% {
+		background-color: #A0522D;
+	}
+}
+
+@keyframes to_Silver {
+	50% {
+		background-color: #C0C0C0;
+	}
+}
+
+@keyframes to_SkyBlue {
+	50% {
+		background-color: #87CEEB;
+	}
+}
+
+@keyframes to_SlateBlue {
+	50% {
+		background-color: #6A5ACD;
+	}
+}
+
+@keyframes to_SlateGrey {
+	50% {
+		background-color: #708090;
+	}
+}
+
+@keyframes to_Snow {
+	50% {
+		background-color: #FFFAFA;
+	}
+}
+
+@keyframes to_SpringGreen {
+	50% {
+		background-color: #00FF7F;
+	}
+}
+
+@keyframes to_SteelBlue {
+	50% {
+		background-color: #4682B4;
+	}
+}
+
+@keyframes to_Tan {
+	50% {
+		background-color: #D2B48C;
+	}
+}
+
+@keyframes to_Teal {
+	50% {
+		background-color: #008080;
+	}
+}
+
+@keyframes to_Thistle {
+	50% {
+		background-color: #D8BFD8;
+	}
+}
+
+@keyframes to_Tomato {
+	50% {
+		background-color: #FF6347;
+	}
+}
+
+@keyframes to_Turquoise {
+	50% {
+		background-color: #40E0D0;
+	}
+}
+
+@keyframes to_Violet {
+	50% {
+		background-color: #EE82EE;
+	}
+}
+
+@keyframes to_Wheat {
+	50% {
+		background-color: #F5DEB3;
+	}
+}
+
+@keyframes to_White {
+	50% {
+		background-color: #FFFFFF;
+	}
+}
+
+@keyframes to_WhiteSmoke {
+	50% {
+		background-color: #F5F5F5;
+	}
+}
+
+@keyframes to_Yellow {
+	50% {
+		background-color: #FFFF00;
+	}
+}
+
+@keyframes to_YellowGreen {
+	50% {
+		background-color: #9ACD32;
+	}
+}
+@keyframes to_Transparent_smooth {
+	100% {
+		background-color: transparent;
+	}
+}
+
+@keyframes to_AliceBlue_smooth {
+	100% {
+		background-color: #F0F8FF;
+	}
+}
+
+@keyframes to_AntiqueWhite_smooth {
+	100% {
+		background-color: #FAEBD7;
+	}
+}
+
+@keyframes to_Aqua_smooth {
+	100% {
+		background-color: #00FFFF;
+	}
+}
+
+@keyframes to_Aquamarine_smooth {
+	100% {
+		background-color: #7FFFD4;
+	}
+}
+
+@keyframes to_Azure_smooth {
+	100% {
+		background-color: #F0FFFF;
+	}
+}
+
+@keyframes to_Beige_smooth {
+	100% {
+		background-color: #F5F5DC;
+	}
+}
+
+@keyframes to_Bisque_smooth {
+	100% {
+		background-color: #FFE4C4;
+	}
+}
+
+@keyframes to_Black_smooth {
+	100% {
+		background-color: #000000;
+	}
+}
+
+@keyframes to_BlanchedAlmond_smooth {
+	100% {
+		background-color: #FFEBCD;
+	}
+}
+
+@keyframes to_Blue_smooth {
+	100% {
+		background-color: #0000FF;
+	}
+}
+
+@keyframes to_BlueViolet_smooth {
+	100% {
+		background-color: #8A2BE2;
+	}
+}
+
+@keyframes to_Brown_smooth {
+	100% {
+		background-color: #A52A2A;
+	}
+}
+
+@keyframes to_BurlyWood_smooth {
+	100% {
+		background-color: #DEB887;
+	}
+}
+
+@keyframes to_CadetBlue_smooth {
+	100% {
+		background-color: #5F9EA0;
+	}
+}
+
+@keyframes to_Chartreuse_smooth {
+	100% {
+		background-color: #7FFF00;
+	}
+}
+
+@keyframes to_Chocolate_smooth {
+	100% {
+		background-color: #D2691E;
+	}
+}
+
+@keyframes to_Coral_smooth {
+	100% {
+		background-color: #FF7F50;
+	}
+}
+
+@keyframes to_CornflowerBlue_smooth {
+	100% {
+		background-color: #6495ED;
+	}
+}
+
+@keyframes to_Cornsilk_smooth {
+	100% {
+		background-color: #FFF8DC;
+	}
+}
+
+@keyframes to_Crimson_smooth {
+	100% {
+		background-color: #DC143C;
+	}
+}
+
+@keyframes to_Cyan_smooth {
+	100% {
+		background-color: #00FFFF;
+	}
+}
+
+@keyframes to_DarkBlue_smooth {
+	100% {
+		background-color: #00008B;
+	}
+}
+
+@keyframes to_DarkCyan_smooth {
+	100% {
+		background-color: #008B8B;
+	}
+}
+
+@keyframes to_DarkGoldenRod_smooth {
+	100% {
+		background-color: #B8860B;
+	}
+}
+
+@keyframes to_DarkGrey_smooth {
+	100% {
+		background-color: #A9A9A9;
+	}
+}
+
+@keyframes to_DarkGreen_smooth {
+	100% {
+		background-color: #006400;
+	}
+}
+
+@keyframes to_DarkKhaki_smooth {
+	100% {
+		background-color: #BDB76B;
+	}
+}
+
+@keyframes to_DarkMagenta_smooth {
+	100% {
+		background-color: #8B008B;
+	}
+}
+
+@keyframes to_DarkOliveGreen_smooth {
+	100% {
+		background-color: #556B2F;
+	}
+}
+
+@keyframes to_DarkOrange_smooth {
+	100% {
+		background-color: #FF8C00;
+	}
+}
+
+@keyframes to_DarkOrchid_smooth {
+	100% {
+		background-color: #9932CC;
+	}
+}
+
+@keyframes to_DarkRed_smooth {
+	100% {
+		background-color: #8B0000;
+	}
+}
+
+@keyframes to_DarkSalmon_smooth {
+	100% {
+		background-color: #E9967A;
+	}
+}
+
+@keyframes to_DarkSeaGreen_smooth {
+	100% {
+		background-color: #8FBC8F;
+	}
+}
+
+@keyframes to_DarkSlateBlue_smooth {
+	100% {
+		background-color: #483D8B;
+	}
+}
+
+@keyframes to_DarkSlateGrey_smooth {
+	100% {
+		background-color: #2F4F4F;
+	}
+}
+
+@keyframes to_DarkTurquoise_smooth {
+	100% {
+		background-color: #00CED1;
+	}
+}
+
+@keyframes to_DarkViolet_smooth {
+	100% {
+		background-color: #9400D3;
+	}
+}
+
+@keyframes to_DeepPink_smooth {
+	100% {
+		background-color: #FF1493;
+	}
+}
+
+@keyframes to_DeepSkyBlue_smooth {
+	100% {
+		background-color: #00BFFF;
+	}
+}
+
+@keyframes to_DimGrey_smooth {
+	100% {
+		background-color: #696969;
+	}
+}
+
+@keyframes to_DodgerBlue_smooth {
+	100% {
+		background-color: #1E90FF;
+	}
+}
+
+@keyframes to_FireBrick_smooth {
+	100% {
+		background-color: #B22222;
+	}
+}
+
+@keyframes to_FloralWhite_smooth {
+	100% {
+		background-color: #FFFAF0;
+	}
+}
+
+@keyframes to_ForestGreen_smooth {
+	100% {
+		background-color: #228B22;
+	}
+}
+
+@keyframes to_Fuchsia_smooth {
+	100% {
+		background-color: #FF00FF;
+	}
+}
+
+@keyframes to_Gainsboro_smooth {
+	100% {
+		background-color: #DCDCDC;
+	}
+}
+
+@keyframes to_GhostWhite_smooth {
+	100% {
+		background-color: #F8F8FF;
+	}
+}
+
+@keyframes to_Gold_smooth {
+	100% {
+		background-color: #FFD700;
+	}
+}
+
+@keyframes to_GoldenRod_smooth {
+	100% {
+		background-color: #DAA520;
+	}
+}
+
+@keyframes to_Grey_smooth {
+	100% {
+		background-color: #808080;
+	}
+}
+
+@keyframes to_Green_smooth {
+	100% {
+		background-color: #008000;
+	}
+}
+
+@keyframes to_GreenYellow_smooth {
+	100% {
+		background-color: #ADFF2F;
+	}
+}
+
+@keyframes to_HoneyDew_smooth {
+	100% {
+		background-color: #F0FFF0;
+	}
+}
+
+@keyframes to_HotPink_smooth {
+	100% {
+		background-color: #FF69B4;
+	}
+}
+
+@keyframes to_IndianRed_smooth {
+	100% {
+		background-color: #CD5C5C;
+	}
+}
+
+@keyframes to_Indigo_smooth {
+	100% {
+		background-color: #4B0082;
+	}
+}
+
+@keyframes to_Ivory_smooth {
+	100% {
+		background-color: #FFFFF0;
+	}
+}
+
+@keyframes to_Khaki_smooth {
+	100% {
+		background-color: #F0E68C;
+	}
+}
+
+@keyframes to_Lavender_smooth {
+	100% {
+		background-color: #E6E6FA;
+	}
+}
+
+@keyframes to_LavenderBlush_smooth {
+	100% {
+		background-color: #FFF0F5;
+	}
+}
+
+@keyframes to_LawnGreen_smooth {
+	100% {
+		background-color: #7CFC00;
+	}
+}
+
+@keyframes to_LemonChiffon_smooth {
+	100% {
+		background-color: #FFFACD;
+	}
+}
+
+@keyframes to_LightBlue_smooth {
+	100% {
+		background-color: #ADD8E6;
+	}
+}
+
+@keyframes to_LightCoral_smooth {
+	100% {
+		background-color: #F08080;
+	}
+}
+
+@keyframes to_LightCyan_smooth {
+	100% {
+		background-color: #E0FFFF;
+	}
+}
+
+@keyframes to_LightGoldenRodYellow_smooth {
+	100% {
+		background-color: #FAFAD2;
+	}
+}
+
+@keyframes to_LightGrey_smooth {
+	100% {
+		background-color: #D3D3D3;
+	}
+}
+
+@keyframes to_LightGreen_smooth {
+	100% {
+		background-color: #90EE90;
+	}
+}
+
+@keyframes to_LightPink_smooth {
+	100% {
+		background-color: #FFB6C1;
+	}
+}
+
+@keyframes to_LightSalmon_smooth {
+	100% {
+		background-color: #FFA07A;
+	}
+}
+
+@keyframes to_LightSeaGreen_smooth {
+	100% {
+		background-color: #20B2AA;
+	}
+}
+
+@keyframes to_LightSkyBlue_smooth {
+	100% {
+		background-color: #87CEFA;
+	}
+}
+
+@keyframes to_LightSlateGrey_smooth {
+	100% {
+		background-color: #778899;
+	}
+}
+
+@keyframes to_LightSteelBlue_smooth {
+	100% {
+		background-color: #B0C4DE;
+	}
+}
+
+@keyframes to_LightYellow_smooth {
+	100% {
+		background-color: #FFFFE0;
+	}
+}
+
+@keyframes to_Lime_smooth {
+	100% {
+		background-color: #00FF00;
+	}
+}
+
+@keyframes to_LimeGreen_smooth {
+	100% {
+		background-color: #32CD32;
+	}
+}
+
+@keyframes to_Linen_smooth {
+	100% {
+		background-color: #FAF0E6;
+	}
+}
+
+@keyframes to_Magenta_smooth {
+	100% {
+		background-color: #FF00FF;
+	}
+}
+
+@keyframes to_Maroon_smooth {
+	100% {
+		background-color: #800000;
+	}
+}
+
+@keyframes to_MediumAquaMarine_smooth {
+	100% {
+		background-color: #66CDAA;
+	}
+}
+
+@keyframes to_MediumBlue_smooth {
+	100% {
+		background-color: #0000CD;
+	}
+}
+
+@keyframes to_MediumOrchid_smooth {
+	100% {
+		background-color: #BA55D3;
+	}
+}
+
+@keyframes to_MediumPurple_smooth {
+	100% {
+		background-color: #9370DB;
+	}
+}
+
+@keyframes to_MediumSeaGreen_smooth {
+	100% {
+		background-color: #3CB371;
+	}
+}
+
+@keyframes to_MediumSlateBlue_smooth {
+	100% {
+		background-color: #7B68EE;
+	}
+}
+
+@keyframes to_MediumSpringGreen_smooth {
+	100% {
+		background-color: #00FA9A;
+	}
+}
+
+@keyframes to_MediumTurquoise_smooth {
+	100% {
+		background-color: #48D1CC;
+	}
+}
+
+@keyframes to_MediumVioletRed_smooth {
+	100% {
+		background-color: #C71585;
+	}
+}
+
+@keyframes to_MidnightBlue_smooth {
+	100% {
+		background-color: #191970;
+	}
+}
+
+@keyframes to_MintCream_smooth {
+	100% {
+		background-color: #F5FFFA;
+	}
+}
+
+@keyframes to_MistyRose_smooth {
+	100% {
+		background-color: #FFE4E1;
+	}
+}
+
+@keyframes to_Moccasin_smooth {
+	100% {
+		background-color: #FFE4B5;
+	}
+}
+
+@keyframes to_NavajoWhite_smooth {
+	100% {
+		background-color: #FFDEAD;
+	}
+}
+
+@keyframes to_Navy_smooth {
+	100% {
+		background-color: #000080;
+	}
+}
+
+@keyframes to_OldLace_smooth {
+	100% {
+		background-color: #FDF5E6;
+	}
+}
+
+@keyframes to_Olive_smooth {
+	100% {
+		background-color: #808000;
+	}
+}
+
+@keyframes to_OliveDrab_smooth {
+	100% {
+		background-color: #6B8E23;
+	}
+}
+
+@keyframes to_Orange_smooth {
+	100% {
+		background-color: #FFA500;
+	}
+}
+
+@keyframes to_OrangeRed_smooth {
+	100% {
+		background-color: #FF4500;
+	}
+}
+
+@keyframes to_Orchid_smooth {
+	100% {
+		background-color: #DA70D6;
+	}
+}
+
+@keyframes to_PaleGoldenRod_smooth {
+	100% {
+		background-color: #EEE8AA;
+	}
+}
+
+@keyframes to_PaleGreen_smooth {
+	100% {
+		background-color: #98FB98;
+	}
+}
+
+@keyframes to_PaleTurquoise_smooth {
+	100% {
+		background-color: #AFEEEE;
+	}
+}
+
+@keyframes to_PaleVioletRed_smooth {
+	100% {
+		background-color: #DB7093;
+	}
+}
+
+@keyframes to_PapayaWhip_smooth {
+	100% {
+		background-color: #FFEFD5;
+	}
+}
+
+@keyframes to_PeachPuff_smooth {
+	100% {
+		background-color: #FFDAB9;
+	}
+}
+
+@keyframes to_Peru_smooth {
+	100% {
+		background-color: #CD853F;
+	}
+}
+
+@keyframes to_Pink_smooth {
+	100% {
+		background-color: #FFC0CB;
+	}
+}
+
+@keyframes to_Plum_smooth {
+	100% {
+		background-color: #DDA0DD;
+	}
+}
+
+@keyframes to_PowderBlue_smooth {
+	100% {
+		background-color: #B0E0E6;
+	}
+}
+
+@keyframes to_Purple_smooth {
+	100% {
+		background-color: #800080;
+	}
+}
+
+@keyframes to_RebeccaPurple_smooth {
+	100% {
+		background-color: #663399;
+	}
+}
+
+@keyframes to_Red_smooth {
+	100% {
+		background-color: #FF0000;
+	}
+}
+
+@keyframes to_RosyBrown_smooth {
+	100% {
+		background-color: #BC8F8F;
+	}
+}
+
+@keyframes to_RoyalBlue_smooth {
+	100% {
+		background-color: #4169E1;
+	}
+}
+
+@keyframes to_SaddleBrown_smooth {
+	100% {
+		background-color: #8B4513;
+	}
+}
+
+@keyframes to_Salmon_smooth {
+	100% {
+		background-color: #FA8072;
+	}
+}
+
+@keyframes to_SandyBrown_smooth {
+	100% {
+		background-color: #F4A460;
+	}
+}
+
+@keyframes to_SeaGreen_smooth {
+	100% {
+		background-color: #2E8B57;
+	}
+}
+
+@keyframes to_SeaShell_smooth {
+	100% {
+		background-color: #FFF5EE;
+	}
+}
+
+@keyframes to_Sienna_smooth {
+	100% {
+		background-color: #A0522D;
+	}
+}
+
+@keyframes to_Silver_smooth {
+	100% {
+		background-color: #C0C0C0;
+	}
+}
+
+@keyframes to_SkyBlue_smooth {
+	100% {
+		background-color: #87CEEB;
+	}
+}
+
+@keyframes to_SlateBlue_smooth {
+	100% {
+		background-color: #6A5ACD;
+	}
+}
+
+@keyframes to_SlateGrey_smooth {
+	100% {
+		background-color: #708090;
+	}
+}
+
+@keyframes to_Snow_smooth {
+	100% {
+		background-color: #FFFAFA;
+	}
+}
+
+@keyframes to_SpringGreen_smooth {
+	100% {
+		background-color: #00FF7F;
+	}
+}
+
+@keyframes to_SteelBlue_smooth {
+	100% {
+		background-color: #4682B4;
+	}
+}
+
+@keyframes to_Tan_smooth {
+	100% {
+		background-color: #D2B48C;
+	}
+}
+
+@keyframes to_Teal_smooth {
+	100% {
+		background-color: #008080;
+	}
+}
+
+@keyframes to_Thistle_smooth {
+	100% {
+		background-color: #D8BFD8;
+	}
+}
+
+@keyframes to_Tomato_smooth {
+	100% {
+		background-color: #FF6347;
+	}
+}
+
+@keyframes to_Turquoise_smooth {
+	100% {
+		background-color: #40E0D0;
+	}
+}
+
+@keyframes to_Violet_smooth {
+	100% {
+		background-color: #EE82EE;
+	}
+}
+
+@keyframes to_Wheat_smooth {
+	100% {
+		background-color: #F5DEB3;
+	}
+}
+
+@keyframes to_White_smooth {
+	100% {
+		background-color: #FFFFFF;
+	}
+}
+
+@keyframes to_WhiteSmoke_smooth {
+	100% {
+		background-color: #F5F5F5;
+	}
+}
+
+@keyframes to_Yellow_smooth {
+	100% {
+		background-color: #FFFF00;
+	}
+}
+
+@keyframes to_YellowGreen_smooth {
+	100% {
+		background-color: #9ACD32;
+	}
+}

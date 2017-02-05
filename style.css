@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+#dropZones {
+    width: 500px;
+    margin: auto;
+    min-height: 100px;
+    overflow: hidden;
+}
+
+.dropZone {
+    min-height: 100px;
+    width: calc(50% - 10px);
+    border: 1px solid blue;
+    text-align: center;
+}
+
+.resultImg {
+    min-width: 200px;
+    max-width: 250px;
+    margin: auto;
+}
+
+.hintDrag {
+    background-color: #F2F7F2;
+    border: 2px solid blue;    
+}
+
+.acceptDrag {
+    background-color: #E5F5E5;
+    border: 3px solid blue;
+}
+
+#generateButton {
+    margin: 5px;
+}
+
+.result {
+    margin: 10px;
+    width: calc(50% - 32px);
+    max-width: calc(50% - 32px);
+    overflow-x: scroll;
+    min-height: 200px;
+    border: 1px solid #777;
+    padding: 5 px;
+}
+
+#resultZone {
+    margin: 10px;
+}
+
+.fullWidth {
+    width: 100%;
+    text-align: center;
+}
