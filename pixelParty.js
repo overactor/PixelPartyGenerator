@@ -191,7 +191,7 @@ function nearestColor(color, colors) {
 }
 
 function hrefFromColors(color1, color2) {
-    return ('//' + color1.name + (color1 != color2 && color2.hex != 'transparent' ? ' /to_' + color2.name : '')).replace('Transparent', '').replace('// /', '/');
+    return ('//' + color1.name + (color1 != color2 && color2.hex != 'transparent' ? ' /to_' + color2.name : '')).replace('Transparent', '').replace('// /', '//');
 }
 
 var pixels1 = [];
